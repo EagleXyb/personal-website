@@ -1,6 +1,6 @@
 <template>
   <!-- 关于我们页面的根容器 -->
-  <div>
+  <div class="about-us-container">
     <!-- 页面标题 -->
     <h1>关于我们</h1>
     <!-- 页面内容描述 -->
@@ -23,3 +23,14 @@ export default {
   name: 'AboutUs'
 }
 </script>
+
+<style scoped>
+.about-us-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* 垂直居中 */
+  align-items: center; /* 水平居中 */
+  height: 100vh; /* 占满整个视口高度 */
+  background-color: #e6f7ff; /* 设置背景颜色为浅蓝色 */
+}
+</style>
